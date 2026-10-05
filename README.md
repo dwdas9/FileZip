@@ -8,7 +8,7 @@ FileZip creates password-protected ZIP and 7z archives directly from Finder.
 - About 7 MB installed
 - About 3 MB download
 
-Source code and releases are available at [github.com/dwdas9/FileZip](https://github.com/dwdas9/FileZip).
+Releases are available at [github.com/dwdas9/FileZip](https://github.com/dwdas9/FileZip). The source code is not published. For source code or other questions, contact the author, [@dwdas9](https://github.com/dwdas9) on GitHub.
 
 ---
 
