@@ -53,6 +53,11 @@ by email, double-click the attachment in the email.
 4. Open FileZip: in Finder, click **Applications** in the sidebar, then
    double-click **FileZip**.
 
+<img src="images/install-dmg.png" width="600" alt="The FileZip 1.0.0 window that opens from the download, showing the Applications folder, the FileZip app, Read Me, and Third-Party Notices">
+
+*This window opens when you double-click FileZip-1.0.0.dmg. Drag **FileZip**
+onto **Applications**.*
+
 ### If your Mac says FileZip "cannot be opened" or "was blocked"
 
 This is normal the first time. FileZip isn't registered with Apple (that costs
@@ -75,6 +80,10 @@ enough.
 2. In the FileZip window, click **Install Quick Actions**.
 3. The window now says **Installed**. You can close FileZip.
 
+<img src="images/home.png" width="460" alt="The FileZip window. Under Finder Quick Actions it says Installed, with Reinstall and Remove buttons">
+
+*The FileZip window after clicking **Install Quick Actions**.*
+
 If the option doesn't appear in the next step, wait a minute or restart your
 Mac.
 
@@ -96,6 +105,18 @@ Mac.
 5. Click **Compress**.
 6. When you see **Archive created**, click **Reveal in Finder** to see the new
    file, or **Done**.
+
+<img src="images/compress.png" width="500" alt="The Compress with Password window for a folder named Project Files: archive name, Save in Documents, ZIP format selected, and the password typed twice as dots">
+
+*Step 4: the window that opens. The password is typed twice (shown as dots).*
+
+<img src="images/compressing.png" width="500" alt="Compressing progress bar at 10 percent with a Cancel button">
+
+*While it works, a progress bar shows. **Cancel** stops it safely.*
+
+<img src="images/compressed.png" width="500" alt="Archive created. Project Files.zip is encrypted with AES-256. Buttons: Reveal in Finder and Done">
+
+*Done. The new file sits next to your original files.*
 
 Your original files stay exactly as they were. FileZip makes a new, separate
 file.
@@ -122,6 +143,15 @@ the Dock.
    FileZip**. Or drag the file onto FileZip.
 2. Type the password and click **Extract**.
 3. Click **Reveal in Finder** to see your files.
+
+<img src="images/extract.png" width="480" alt="The Extract window for Project Files.zip: ZIP archive, 3 items, password-protected, with the password typed and Extract to Documents">
+
+*Type the password, then click **Extract**.*
+
+<img src="images/extracted.png" width="480" alt="Extraction complete. Extracted Project Files 2 into Documents">
+
+*Finished. A folder named "Project Files" already existed, so FileZip named the
+new one "Project Files 2" instead of overwriting it.*
 
 FileZip never overwrites files you already have. If a file with the same name
 exists, the new one gets a number, like "Report 2.pdf".
@@ -153,6 +183,8 @@ send anything anywhere.
 **It says the password is incorrect.**
 Check Caps Lock and try again. Passwords are case-sensitive: "Cat" and "cat"
 are different.
+
+<img src="images/wrong-password.png" width="480" alt="Extract window with the message: That password is incorrect. Try again.">
 
 **How do I stop a long job?**
 Click **Cancel**. Nothing half-finished is left behind.
